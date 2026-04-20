@@ -19,6 +19,16 @@
       "pluginName": "example-skills",
       "installedAt": "2026-04-20T08:43:52.740Z",
       "updatedAt": "2026-04-20T08:43:52.740Z"
+    },
+    "canvas-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/canvas-design/SKILL.md",
+      "skillFolderHash": "928af0a3279dc4e0c0e6ceaf407a8542a2bb2aa2",
+      "pluginName": "example-skills",
+      "installedAt": "2026-04-20T08:55:36.208Z",
+      "updatedAt": "2026-04-20T08:55:36.208Z"
     }
   },
   "dismissed": {
