@@ -29,6 +29,79 @@
       "pluginName": "example-skills",
       "installedAt": "2026-04-20T08:55:36.208Z",
       "updatedAt": "2026-04-20T08:55:36.208Z"
+    },
+    "theme-factory": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/theme-factory/SKILL.md",
+      "skillFolderHash": "007940e80de6ae577a87b2b343b1a5eae715df2b",
+      "pluginName": "example-skills",
+      "installedAt": "2026-04-20T09:06:44.239Z",
+      "updatedAt": "2026-04-20T09:06:44.239Z"
+    },
+    "using-superpowers": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/obra/superpowers.git",
+      "skillPath": "skills/using-superpowers/SKILL.md",
+      "skillFolderHash": "64c70a2b656d440ddb50818c2477e028facbc468",
+      "installedAt": "2026-04-20T09:11:26.124Z",
+      "updatedAt": "2026-04-20T09:11:26.124Z"
+    },
+    "vue": {
+      "source": "antfu/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/antfu/skills.git",
+      "skillPath": "skills/vue/SKILL.md",
+      "skillFolderHash": "cff239de1fa9a889b40166c85d13157b8ae5408c",
+      "installedAt": "2026-04-20T09:13:59.294Z",
+      "updatedAt": "2026-04-20T09:13:59.294Z"
+    },
+    "vue-best-practices": {
+      "source": "hyf0/vue-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hyf0/vue-skills.git",
+      "skillPath": "skills/vue-best-practices/SKILL.md",
+      "skillFolderHash": "86b8f7ca082668082f9251782859b316a1c046de",
+      "installedAt": "2026-04-20T09:14:24.323Z",
+      "updatedAt": "2026-04-20T09:14:24.323Z"
+    },
+    "gh-cli": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/gh-cli/SKILL.md",
+      "skillFolderHash": "437437f7f20bcdbbdb3081cf164435a388c0a39a",
+      "installedAt": "2026-04-20T09:14:56.821Z",
+      "updatedAt": "2026-04-20T09:14:56.821Z"
+    },
+    "prd": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/prd/SKILL.md",
+      "skillFolderHash": "b4af69e637f8f2bf620c55273680669ccca3e73c",
+      "installedAt": "2026-04-20T09:15:57.129Z",
+      "updatedAt": "2026-04-20T09:15:57.129Z"
+    },
+    "html-ppt": {
+      "source": "lewislulu/html-ppt-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/lewislulu/html-ppt-skill.git",
+      "skillPath": "SKILL.md",
+      "skillFolderHash": "15fb85f05b3092b00e5a4eb181227339fe1af679",
+      "installedAt": "2026-04-20T09:16:24.400Z",
+      "updatedAt": "2026-04-20T09:16:24.400Z"
+    },
+    "github-actions-docs": {
+      "source": "xixu-me/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/xixu-me/skills.git",
+      "skillPath": "skills/github-actions-docs/SKILL.md",
+      "skillFolderHash": "518c85da555f91c346813aa5bb3cc62f9db8bfb3",
+      "installedAt": "2026-04-20T09:21:08.364Z",
+      "updatedAt": "2026-04-20T09:21:08.364Z"
     }
   },
   "dismissed": {
