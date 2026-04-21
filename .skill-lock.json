@@ -27,7 +27,50 @@
       "skillFolderHash": "f04d516ab440a657af8541752bb9ba03ac770ead",
       "installedAt": "2026-04-20T09:42:23.634Z",
       "updatedAt": "2026-04-20T09:42:23.634Z"
+    },
+    "mimo-tts": {
+      "source": "Yinxen/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Yinxen/skills.git",
+      "skillPath": "mimo-tts/SKILL.md",
+      "skillFolderHash": "a925660f681450a6369633ea7147b6f5c539690e",
+      "installedAt": "2026-04-20T09:50:36.370Z",
+      "updatedAt": "2026-04-20T09:50:36.370Z"
+    },
+    "hexo-theme-development": {
+      "source": "hsiangfeng/hexo-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/hsiangfeng/hexo-skills.git",
+      "skillPath": "hexo-skills/SKILL.md",
+      "skillFolderHash": "e179f2cddf9efbb225a40e6a929d8166a75d2400",
+      "installedAt": "2026-04-20T10:14:15.471Z",
+      "updatedAt": "2026-04-20T10:20:36.519Z"
+    },
+    "gh-cli": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/github/awesome-copilot.git",
+      "skillPath": "skills/gh-cli/SKILL.md",
+      "skillFolderHash": "437437f7f20bcdbbdb3081cf164435a388c0a39a",
+      "installedAt": "2026-04-21T14:25:08.410Z",
+      "updatedAt": "2026-04-21T14:25:08.410Z"
     }
   },
-  "dismissed": {}
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "firebender",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode",
+    "warp"
+  ]
 }

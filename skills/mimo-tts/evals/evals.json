@@ -1,0 +1,53 @@
+{
+  "skill_name": "mimo-tts",
+  "evals": [
+    {
+      "id": 0,
+      "name": "clear-emotion-anger",
+      "prompt": "帮我把这句话录成一段生气的语音：'你可真行啊你！这事儿你也能干得出来？'保存到 /tmp/eval-out.mp3。",
+      "expected_output": "A .mp3 file at /tmp/eval-out.mp3 with angry/fast-paced delivery. The command should wrap the text with an anger marker like （生气） or （生气，语速快）.",
+      "files": [],
+      "assertions": [
+        {"id": "a1", "text": "Output file /tmp/eval-out.mp3 exists and is at least 3KB"},
+        {"id": "a2", "text": "The text passed to tts.js includes a Chinese-parenthesized anger marker like （生气） before the content"},
+        {"id": "a3", "text": "The command used node to invoke scripts/tts.js (the skill's tool) rather than hitting the API directly or using another TTS"}
+      ]
+    },
+    {
+      "id": 1,
+      "name": "ambiguous-no-emotion-specified",
+      "prompt": "把这段话读出来生成音频：'今天是个重要的日子，谢谢大家一路以来的支持。'",
+      "expected_output": "A .mp3 file with a suitable-for-context tone (e.g., 温柔/叙述/真诚). Agent may pick a reasonable emotion or ask for clarification; either is acceptable as long as a usable file is produced.",
+      "files": [],
+      "assertions": [
+        {"id": "a1", "text": "An .mp3 or .wav audio file is produced and is at least 3KB"},
+        {"id": "a2", "text": "The command used the skill's scripts/tts.js (node invocation) rather than another TTS tool"},
+        {"id": "a3", "text": "Agent's behavior is reasonable: either it picked a sensible tone (e.g., 温柔/真诚/叙述), or it first asked one short clarifying question about the desired vibe. It did NOT run with no emotion marker AND also not ask — that would indicate missed opportunity."}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "dialect-northeastern",
+      "prompt": "用东北话帮我念一下：'哎呀妈呀，这外头风刮得，脸都快冻掉了！'要带那种豪爽感。",
+      "expected_output": "A .mp3 file using a 东北 dialect marker.",
+      "files": [],
+      "assertions": [
+        {"id": "a1", "text": "Output audio file exists and is at least 3KB"},
+        {"id": "a2", "text": "The text passed to tts.js includes a 东北 dialect marker like （东北口音） or （东北话）, possibly combined with 豪爽"},
+        {"id": "a3", "text": "Skill's scripts/tts.js was used"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "singing",
+      "prompt": "用唱的方式帮我合成这几句歌词，保存成 mp3：'我怎么变这样，变得这样倔强，每一步的地方，每一站都不会忘'",
+      "expected_output": "A .mp3 file generated using the <style>唱歌</style> tag.",
+      "files": [],
+      "assertions": [
+        {"id": "a1", "text": "Output .mp3 file exists and is at least 5KB"},
+        {"id": "a2", "text": "The text passed to tts.js includes <style>唱歌</style> tag"},
+        {"id": "a3", "text": "Skill's scripts/tts.js was used"}
+      ]
+    }
+  ]
+}
