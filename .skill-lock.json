@@ -29,13 +29,13 @@
       "updatedAt": "2026-04-20T09:42:23.634Z"
     },
     "mimo-tts": {
-      "source": "Yinxen/skills",
+      "source": "yinxe/skills",
       "sourceType": "github",
-      "sourceUrl": "https://github.com/Yinxen/skills.git",
+      "sourceUrl": "https://github.com/yinxe/skills.git",
       "skillPath": "mimo-tts/SKILL.md",
       "skillFolderHash": "a925660f681450a6369633ea7147b6f5c539690e",
       "installedAt": "2026-04-20T09:50:36.370Z",
-      "updatedAt": "2026-04-20T09:50:36.370Z"
+      "updatedAt": "2026-05-04T08:16:48.379Z"
     },
     "hexo-theme-development": {
       "source": "hsiangfeng/hexo-skills",
@@ -54,6 +54,80 @@
       "skillFolderHash": "437437f7f20bcdbbdb3081cf164435a388c0a39a",
       "installedAt": "2026-04-21T14:25:08.410Z",
       "updatedAt": "2026-04-21T14:25:08.410Z"
+    },
+    "gnome-shell-extension-development": {
+      "source": "yinxe/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/yinxe/skills.git",
+      "skillPath": "gnome-shell-extension-development/SKILL.md",
+      "skillFolderHash": "8c814c328ce1879766cc5829f1dba0f5f329c85a",
+      "installedAt": "2026-05-04T07:26:09.098Z",
+      "updatedAt": "2026-05-04T08:16:48.367Z"
+    },
+    "web-docs-to-skill": {
+      "source": "yinxe/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/yinxe/skills.git",
+      "skillPath": "web-docs-to-skill/SKILL.md",
+      "skillFolderHash": "e4298958b5d825f0684f309f55ceb83c81e7b13b",
+      "installedAt": "2026-05-04T07:53:59.108Z",
+      "updatedAt": "2026-05-04T08:16:48.382Z"
+    },
+    "hexo": {
+      "source": "yinxe/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/yinxe/skills.git",
+      "skillPath": "hexo/SKILL.md",
+      "skillFolderHash": "397c975298cc4393109db853702a4819fe389b47",
+      "installedAt": "2026-05-04T08:16:48.369Z",
+      "updatedAt": "2026-05-04T08:16:48.369Z"
+    },
+    "opencode": {
+      "source": "yinxe/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/yinxe/skills.git",
+      "skillPath": "opencode/SKILL.md",
+      "skillFolderHash": "28989d42fd23ccd65172b8a15494b17c6689eac0",
+      "installedAt": "2026-05-04T08:16:48.380Z",
+      "updatedAt": "2026-05-04T08:16:48.380Z"
+    },
+    "tdd": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/tdd/SKILL.md",
+      "skillFolderHash": "75beb3030b4c979205dd771ff85ac600baeb68f4",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-05-08T09:00:20.048Z",
+      "updatedAt": "2026-05-08T09:00:20.048Z"
+    },
+    "agent-browser": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
+      "skillPath": "skills/agent-browser/SKILL.md",
+      "skillFolderHash": "c1470a475a0472fceda2401ea6763708a91680a8",
+      "pluginName": "agent-browser",
+      "installedAt": "2026-05-08T09:19:38.774Z",
+      "updatedAt": "2026-05-08T09:19:38.774Z"
+    },
+    "clean-ddd-hexagonal": {
+      "source": "ccheney/robust-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/ccheney/robust-skills.git",
+      "skillPath": "skills/clean-ddd-hexagonal/SKILL.md",
+      "skillFolderHash": "d8498786bd5301619282509dd5d358fa596e7453",
+      "installedAt": "2026-05-08T13:21:36.752Z",
+      "updatedAt": "2026-05-08T13:21:36.752Z"
+    },
+    "opentui-doc": {
+      "source": "Yinxe/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/Yinxe/skills.git",
+      "skillPath": "docs/opentui-doc/SKILL.md",
+      "skillFolderHash": "0296a64f8216cf01020b2538cadefd6c675d3e31",
+      "installedAt": "2026-05-12T15:57:53.252Z",
+      "updatedAt": "2026-05-12T15:57:53.252Z"
     }
   },
   "dismissed": {
@@ -66,6 +140,7 @@
     "codex",
     "cursor",
     "deepagents",
+    "dexto",
     "firebender",
     "gemini-cli",
     "github-copilot",
