@@ -128,6 +128,33 @@
       "skillFolderHash": "0296a64f8216cf01020b2538cadefd6c675d3e31",
       "installedAt": "2026-05-12T15:57:53.252Z",
       "updatedAt": "2026-05-12T15:57:53.252Z"
+    },
+    "cloudflare-email-service": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/cloudflare-email-service/SKILL.md",
+      "skillFolderHash": "af7bd16246149247d4b699382d951dc376491bac",
+      "installedAt": "2026-05-15T11:00:49.004Z",
+      "updatedAt": "2026-05-15T11:00:49.004Z"
+    },
+    "durable-objects": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/durable-objects/SKILL.md",
+      "skillFolderHash": "72810f48414f2e68d0aa65a8895f749c959dea91",
+      "installedAt": "2026-05-15T11:00:49.008Z",
+      "updatedAt": "2026-05-15T11:00:49.008Z"
+    },
+    "workers-best-practices": {
+      "source": "cloudflare/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cloudflare/skills.git",
+      "skillPath": "skills/workers-best-practices/SKILL.md",
+      "skillFolderHash": "7dd384e79c76d3e388dfe53e12e93642679ff1fd",
+      "installedAt": "2026-05-15T11:00:49.018Z",
+      "updatedAt": "2026-05-15T11:00:49.018Z"
     }
   },
   "dismissed": {
